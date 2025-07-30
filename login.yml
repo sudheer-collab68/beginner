@@ -1,0 +1,5 @@
+login:
+  username: admin_user
+  password: ${LOGIN_PASSWORD}   # Use env variable for security
+  rememberMe: true
+  sessionTimeout: 30   # in minutes
